@@ -14,7 +14,7 @@ export function ShopeeConfirmScreen({ onPrev }: ShopeeConfirmScreenProps) {
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
           </svg>
         </button>
-        <span className="text-white font-medium text-[11px]">Chi tiet don hang</span>
+        <span className="text-white font-medium text-[11px]">Chi tiết đơn hàng</span>
       </div>
 
       <div className="flex-1 overflow-y-auto">
@@ -35,7 +35,7 @@ export function ShopeeConfirmScreen({ onPrev }: ShopeeConfirmScreenProps) {
 
         {/* Order Status Timeline */}
         <div className="bg-white p-3 mt-1">
-          <h3 className="text-[10px] font-medium mb-3">Trang thái đơn hàng</h3>
+           <h3 className="text-[10px] font-medium mb-3">Trạng thái đơn hàng</h3>
           <div className="space-y-3">
             <div className="flex gap-3">
               <div className="flex flex-col items-center">
@@ -99,16 +99,16 @@ export function ShopeeConfirmScreen({ onPrev }: ShopeeConfirmScreenProps) {
               <div className="w-4 h-4 bg-[#D82D8B] rounded flex items-center justify-center">
                 <span className="text-white text-[8px] font-bold">M</span>
               </div>
-              <span className="text-[10px] text-[#D82D8B] font-medium">Vi MoMo</span>
+              <span className="text-[10px] text-[#D82D8B] font-medium">Ví MoMo</span>
             </div>
           </div>
           <div className="bg-gray-50 p-2 rounded-md">
             <div className="flex justify-between text-[9px] mb-1.5">
-              <span className="text-gray-500">Ma giao dich MoMo</span>
+              <span className="text-gray-500">Mã giao dịch MoMo</span>
               <span className="font-mono">MM240115001234</span>
             </div>
             <div className="flex justify-between text-[9px]">
-              <span className="text-gray-500">Da thanh toan</span>
+              <span className="text-gray-500">Đã thanh toán</span>
               <span className="text-[#22C55E] font-semibold">28.490.000d</span>
             </div>
           </div>
@@ -147,7 +147,7 @@ export function ShopeeConfirmScreen({ onPrev }: ShopeeConfirmScreenProps) {
             </div>
             <div className="flex-1">
               <h4 className="text-[10px] text-gray-800">iPhone 15 Pro Max 256GB</h4>
-              <div className="text-[9px] text-gray-500">Titan Den x1</div>
+              <div className="text-[9px] text-gray-500">Titan Đen x1</div>
               <div className="text-[#EE4D2D] font-bold text-[11px] mt-1">28.490.000d</div>
             </div>
           </div>
@@ -157,10 +157,10 @@ export function ShopeeConfirmScreen({ onPrev }: ShopeeConfirmScreenProps) {
       {/* Bottom */}
       <div className="bg-white border-t border-gray-200 p-2 flex gap-2">
         <button className="flex-1 py-2 border border-[#EE4D2D] text-[#EE4D2D] rounded-md text-[10px] font-medium hover:bg-[#EE4D2D]/5 transition-colors">
-          Lien he Shop
+          Liên hệ Shop
         </button>
         <button className="flex-1 py-2 bg-[#EE4D2D] text-white rounded-md text-[10px] font-medium hover:bg-[#EE4D2D]/90 transition-colors">
-          Theo doi don hang
+          Theo dõi đơn hàng
         </button>
       </div>
     </div>

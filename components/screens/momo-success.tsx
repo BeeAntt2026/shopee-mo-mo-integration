@@ -9,7 +9,7 @@ export function MomoSuccessScreen({ onNext }: MomoSuccessScreenProps) {
     <div className="min-h-full flex flex-col bg-[#D82D8B] relative overflow-hidden text-[11px]">
       {/* Header */}
       <div className="px-3 py-2 flex items-center justify-center">
-        <span className="text-white font-medium text-[11px]">Thanh toan thanh cong</span>
+        <span className="text-white font-medium text-[11px]">Thanh toán thành công</span>
       </div>
 
       <div className="flex-1 flex flex-col items-center justify-start px-4 pt-3 pb-2">
@@ -22,8 +22,8 @@ export function MomoSuccessScreen({ onNext }: MomoSuccessScreenProps) {
           </div>
         </div>
 
-        <h2 className="text-white text-[14px] font-bold mb-1">Thanh toan thanh cong!</h2>
-        <p className="text-white/70 text-[10px] mb-3">Giao dich da duoc xu ly</p>
+        <h2 className="text-white text-[14px] font-bold mb-1">Thanh toán thành công!</h2>
+        <p className="text-white/70 text-[10px] mb-3">Giao dịch đã được xử lý</p>
 
         {/* Amount */}
         <div className="text-white text-[20px] font-bold mb-3">28.490.000d</div>
@@ -32,21 +32,21 @@ export function MomoSuccessScreen({ onNext }: MomoSuccessScreenProps) {
         <div className="w-full bg-white rounded-xl p-3 shadow-md">
           <div className="space-y-2">
             <div className="flex justify-between text-[10px]">
-              <span className="text-gray-500">Ma giao dich</span>
+              <span className="text-gray-500">Mã giao dịch</span>
               <span className="text-gray-800 font-mono text-[9px]">MM240115001234</span>
             </div>
             <div className="flex justify-between text-[10px]">
-              <span className="text-gray-500">Thoi gian</span>
+              <span className="text-gray-500">Thời gian</span>
               <span className="text-gray-800 text-[9px]">15/01/2024 09:41</span>
             </div>
             <div className="flex justify-between text-[10px]">
-              <span className="text-gray-500">Don hang Shopee</span>
+              <span className="text-gray-500">Đơn hàng Shopee</span>
               <span className="text-gray-800">#SP2401150001</span>
             </div>
 
             <div className="border-t border-gray-200 pt-2 mt-2">
               <div className="flex justify-between text-[10px]">
-                <span className="text-gray-600 font-medium">So tien</span>
+                <span className="text-gray-600 font-medium">Số tiền</span>
                 <span className="text-[#D82D8B] font-bold">28.490.000d</span>
               </div>
             </div>
@@ -60,10 +60,10 @@ export function MomoSuccessScreen({ onNext }: MomoSuccessScreenProps) {
           onClick={onNext}
           className="w-full py-2 bg-white text-[#D82D8B] rounded-lg text-[10px] font-medium hover:bg-white/90 transition-colors"
         >
-          Quay lai Shopee
+          Quay lại Shopee
         </button>
         <button className="w-full mt-2 text-white/80 text-[9px] hover:text-white transition-colors">
-          Xem chi tiet giao dich
+          Xem chi tiết giao dịch
         </button>
       </div>
 
@@ -79,7 +79,7 @@ export function MomoSuccessScreen({ onNext }: MomoSuccessScreenProps) {
               <span className="text-[9px] text-gray-400">now</span>
             </div>
             <p className="text-[9px] text-gray-600 mt-0.5">
-              Thanh toan thanh cong! Don hang #SP2401150001 dang duoc xu ly.
+              Thanh toán thành công! Đơn hàng #SP2401150001 đang được xử lý.
             </p>
           </div>
         </div>

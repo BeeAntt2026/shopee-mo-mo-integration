@@ -15,7 +15,7 @@ export function Header() {
             </div>
           </div>
           <span className="font-semibold text-sm md:text-base hidden sm:inline">
-            Payment Integration
+            Tích hợp thanh toán
           </span>
         </div>
         

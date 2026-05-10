@@ -15,7 +15,7 @@ export function ShopeeCartScreen({ onNext, onPrev }: ShopeeCartScreenProps) {
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
           </svg>
         </button>
-        <span className="text-white font-medium text-[11px]">Gio hang (1)</span>
+        <span className="text-white font-medium text-[11px]">Giỏ hàng (1)</span>
       </div>
 
       {/* Cart Items */}
@@ -38,7 +38,7 @@ export function ShopeeCartScreen({ onNext, onPrev }: ShopeeCartScreenProps) {
             </div>
             <div className="flex-1 min-w-0">
               <h4 className="text-[10px] font-medium text-gray-800 truncate">iPhone 15 Pro Max</h4>
-              <div className="text-[9px] text-gray-500">Titan Den</div>
+              <div className="text-[9px] text-gray-500">Titan Đen</div>
               <div className="flex items-center justify-between mt-1">
                 <span className="text-[#EE4D2D] font-bold text-[11px]">28.990.000d</span>
                 <div className="flex items-center border border-gray-200 rounded text-[9px]">
@@ -56,8 +56,8 @@ export function ShopeeCartScreen({ onNext, onPrev }: ShopeeCartScreenProps) {
           <div className="flex items-center gap-2">
             <div className="bg-[#EE4D2D] text-white text-[8px] px-1.5 py-0.5 rounded font-bold">-500K</div>
             <div className="flex-1">
-              <div className="text-[10px] font-medium">Giam 500.000d</div>
-              <div className="text-[8px] text-gray-500">Don toi thieu 20tr</div>
+              <div className="text-[10px] font-medium">Giảm 500.000d</div>
+              <div className="text-[8px] text-gray-500">Đơn tối thiểu 20tr</div>
             </div>
             <svg className="w-4 h-4 text-[#EE4D2D]" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
@@ -70,28 +70,28 @@ export function ShopeeCartScreen({ onNext, onPrev }: ShopeeCartScreenProps) {
       <div className="bg-white border-t border-gray-200">
         <div className="p-2 border-b border-gray-100 text-[10px]">
           <div className="flex justify-between text-gray-600 mb-0.5">
-            <span>Tong tien hang</span>
+            <span>Tổng tiền hàng</span>
             <span>28.990.000d</span>
           </div>
           <div className="flex justify-between text-[#EE4D2D] mb-0.5">
-            <span>Giam gia voucher</span>
+            <span>Giảm giá voucher</span>
             <span>-500.000d</span>
           </div>
           <div className="flex justify-between font-medium text-[11px] mt-1">
-            <span>Tong thanh toan</span>
+            <span>Tổng thanh toán</span>
             <span className="text-[#EE4D2D] font-bold">28.490.000d</span>
           </div>
         </div>
         <div className="p-2 flex items-center gap-2">
           <div className="flex items-center gap-1.5 flex-1">
             <input type="checkbox" className="w-3 h-3 accent-[#EE4D2D]" defaultChecked />
-            <span className="text-[10px] text-gray-600">Tat ca</span>
+            <span className="text-[10px] text-gray-600">Tất cả</span>
           </div>
           <button 
             onClick={onNext}
             className="px-4 py-1.5 bg-[#EE4D2D] text-white rounded text-[10px] font-medium animate-pulse"
           >
-            Mua hang (1)
+            Mua hàng (1)
           </button>
         </div>
       </div>

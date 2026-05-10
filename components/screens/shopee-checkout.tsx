@@ -15,7 +15,7 @@ export function ShopeeCheckoutScreen({ onNext, onPrev }: ShopeeCheckoutScreenPro
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
           </svg>
         </button>
-        <span className="text-white font-medium text-[11px]">Thanh toan</span>
+        <span className="text-white font-medium text-[11px]">Thanh toán</span>
       </div>
 
       <div className="flex-1 overflow-y-auto">
@@ -26,8 +26,8 @@ export function ShopeeCheckoutScreen({ onNext, onPrev }: ShopeeCheckoutScreenPro
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
             </svg>
             <div className="flex-1 min-w-0">
-              <div className="text-[10px] font-medium">Nguyen Van A | 0912 345 678</div>
-              <p className="text-[9px] text-gray-500 truncate">123 Nguyen Hue, Q1, TP.HCM</p>
+              <div className="text-[10px] font-medium">Nguyễn Văn A | 0912 345 678</div>
+              <p className="text-[9px] text-gray-500 truncate">123 Nguyễn Huệ, Q1, TP.HCM</p>
             </div>
           </div>
         </div>
@@ -48,7 +48,7 @@ export function ShopeeCheckoutScreen({ onNext, onPrev }: ShopeeCheckoutScreenPro
             </div>
             <div className="flex-1">
               <h4 className="text-[10px] text-gray-800 truncate">iPhone 15 Pro Max</h4>
-              <div className="text-[9px] text-gray-500">Titan Den x1</div>
+              <div className="text-[9px] text-gray-500">Titan Đen x1</div>
               <div className="text-[#EE4D2D] font-bold text-[11px]">28.490.000d</div>
             </div>
           </div>
@@ -56,13 +56,13 @@ export function ShopeeCheckoutScreen({ onNext, onPrev }: ShopeeCheckoutScreenPro
 
         {/* Payment Methods */}
         <div className="bg-white p-2 mt-1">
-          <h3 className="text-[10px] font-medium mb-2">Phuong thuc thanh toan</h3>
+          <h3 className="text-[10px] font-medium mb-2">Phương thức thanh toán</h3>
           
           <div className="space-y-1.5">
             <label className="flex items-center gap-2 p-1.5 rounded border border-gray-200">
               <input type="radio" name="payment" className="w-3 h-3 accent-[#EE4D2D]" />
               <span className="text-[9px]">COD</span>
-              <span className="text-[9px] text-gray-400">Thanh toan khi nhan hang</span>
+              <span className="text-[9px] text-gray-400">Thanh toán khi nhận hàng</span>
             </label>
             
             <label className="flex items-center gap-2 p-1.5 rounded border border-gray-200">
@@ -80,10 +80,10 @@ export function ShopeeCheckoutScreen({ onNext, onPrev }: ShopeeCheckoutScreenPro
                 <span className="text-white text-[8px] font-bold">M</span>
               </div>
               <div className="flex-1">
-                <span className="text-[9px] font-medium">Vi MoMo</span>
+                <span className="text-[9px] font-medium">Ví MoMo</span>
               </div>
               <div className="bg-[#D82D8B] text-white text-[7px] px-1.5 py-0.5 rounded-full animate-bounce">
-                Chon
+                Chọn
               </div>
             </label>
           </div>
@@ -93,14 +93,14 @@ export function ShopeeCheckoutScreen({ onNext, onPrev }: ShopeeCheckoutScreenPro
       {/* Bottom */}
       <div className="bg-white border-t border-gray-200 p-2">
         <div className="flex justify-between mb-2 text-[10px]">
-          <span className="text-gray-600">Tong thanh toan</span>
+          <span className="text-gray-600">Tổng thanh toán</span>
           <span className="text-[#EE4D2D] font-bold text-[12px]">28.490.000d</span>
         </div>
         <button 
           onClick={onNext}
           className="w-full py-2 bg-[#EE4D2D] text-white rounded text-[10px] font-medium animate-pulse"
         >
-          Dat hang
+          Đặt hàng
         </button>
       </div>
     </div>

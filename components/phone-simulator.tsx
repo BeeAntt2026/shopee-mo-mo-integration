@@ -55,7 +55,7 @@ export function PhoneSimulator({ currentStep, stepData, onNext, onPrev }: PhoneS
           : "bg-secondary text-secondary-foreground"
         }
       `}>
-        {isShopee ? "Shopee App" : "MoMo App"}
+        {isShopee ? "Ứng dụng Shopee" : "Ứng dụng MoMo"}
       </div>
       
       {/* Phone Frame */}

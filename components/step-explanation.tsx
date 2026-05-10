@@ -93,7 +93,7 @@ export function StepExplanation({
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
           </svg>
           <span className={`text-[10px] font-semibold ${isShopee ? "text-primary" : "text-secondary"}`}>
-            Technical Note
+            Ghi chú kỹ thuật
           </span>
         </div>
         <p className="text-[10px] text-muted-foreground leading-relaxed">
@@ -139,7 +139,7 @@ export function StepExplanation({
               ...
             </span>
           ) : (
-            "▶ Auto"
+            "▶ Tự động"
           )}
         </button>
         

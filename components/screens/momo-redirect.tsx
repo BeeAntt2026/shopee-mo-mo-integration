@@ -41,7 +41,7 @@ export function MomoRedirectScreen({ onNext, onPrev }: MomoRedirectScreenProps) 
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
           </svg>
         </button>
-        <span className="text-white font-medium text-[11px]">Thanh toan MoMo</span>
+        <span className="text-white font-medium text-[11px]">Thanh toán MoMo</span>
         <div className="w-4" />
       </div>
 
@@ -51,25 +51,25 @@ export function MomoRedirectScreen({ onNext, onPrev }: MomoRedirectScreenProps) 
           <span className="text-[#D82D8B] text-xl font-bold">M</span>
         </div>
 
-        <h2 className="text-white text-sm font-semibold mb-1">Xac nhan thanh toan</h2>
+        <h2 className="text-white text-sm font-semibold mb-1">Xác nhận thanh toán</h2>
         <p className="text-white/70 text-[10px] text-center mb-4">
-          Dang chuyen den MoMo...
+          Đang chuyển đến MoMo...
         </p>
 
         {/* Order Info Card */}
         <div className="w-full bg-white rounded-xl p-3 shadow-lg">
           <div className="text-center mb-3">
-            <div className="text-[9px] text-gray-500 mb-0.5">So tien thanh toan</div>
+            <div className="text-[9px] text-gray-500 mb-0.5">Số tiền thanh toán</div>
             <div className="text-lg font-bold text-gray-800">28.490.000d</div>
           </div>
 
           <div className="border-t border-dashed border-gray-200 pt-2 space-y-1.5 text-[10px]">
             <div className="flex justify-between">
-              <span className="text-gray-500">Don hang</span>
+              <span className="text-gray-500">Đơn hàng</span>
               <span className="text-gray-800 font-medium">#SP2401150001</span>
             </div>
             <div className="flex justify-between">
-              <span className="text-gray-500">Nguon</span>
+              <span className="text-gray-500">Nguồn</span>
               <div className="flex items-center gap-1">
                 <div className="w-3 h-3 bg-[#EE4D2D] rounded flex items-center justify-center">
                   <span className="text-white text-[6px] font-bold">S</span>

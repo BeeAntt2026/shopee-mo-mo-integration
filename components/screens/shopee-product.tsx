@@ -13,7 +13,7 @@ export function ShopeeProductScreen({ onNext }: ShopeeProductScreenProps) {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
         </svg>
         <div className="flex-1 bg-white/20 rounded px-2 py-1 text-white/70 text-[10px]">
-          Tim kiem...
+          Tìm kiếm...
         </div>
         <svg className="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13l-2.5 5M17 13l2.5 5M9 21h6" />
@@ -58,9 +58,9 @@ export function ShopeeProductScreen({ onNext }: ShopeeProductScreenProps) {
 
       {/* Variants */}
       <div className="p-2 bg-white mt-1">
-        <div className="text-[9px] text-gray-600 mb-1">Mau sac:</div>
+        <div className="text-[9px] text-gray-600 mb-1">Màu sắc:</div>
         <div className="flex gap-1">
-          {["Den", "Trang", "Xanh"].map((color, i) => (
+          {["Đen", "Trắng", "Xanh"].map((color, i) => (
             <button 
               key={color}
               className={`px-2 py-1 rounded text-[9px] border ${
@@ -78,7 +78,7 @@ export function ShopeeProductScreen({ onNext }: ShopeeProductScreenProps) {
       {/* Bottom Bar */}
       <div className="bg-white border-t border-gray-200 p-2 flex gap-2">
         <button className="flex-1 py-2 border border-[#EE4D2D] text-[#EE4D2D] rounded text-[10px] font-medium">
-          Them vao gio
+          Thêm vào giỏ
         </button>
         <button 
           onClick={onNext}

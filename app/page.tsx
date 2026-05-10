@@ -53,11 +53,11 @@ const STEPS = [
   {
     id: 4,
     title: "Chuyển hướng MoMo",
-    shortTitle: "Redirect",
+    shortTitle: "Chuyển hướng",
     description: "Tự động chuyển sang ứng dụng MoMo hoặc hiển thị QR code",
     platform: "momo" as const,
     details: [
-      "Mobile: Auto-redirect sang app MoMo",
+      "Mobile: Auto-redirect sang ứng dụng MoMo",
       "Desktop: Hiển thị QR code để quét",
       "Thông tin đơn hàng được truyền sang MoMo",
       "Hiển thị số tiền cần thanh toán"
@@ -86,7 +86,7 @@ const STEPS = [
     platform: "momo" as const,
     details: [
       "MoMo trừ tiền từ ví người dùng",
-      "Push notification gửi đến cả 2 app",
+      "Push notification gửi đến cả 2 ứng dụng",
       "MoMo gửi callback về Shopee",
       "Hiển thị mã giao dịch"
     ],
@@ -229,7 +229,7 @@ export default function HomePage() {
                 <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
                   <span className="text-primary-foreground font-bold">S</span>
                 </div>
-                <h3 className="font-semibold text-lg">Shopee Platform</h3>
+                <h3 className="font-semibold text-lg">Nền tảng Shopee</h3>
               </div>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li className="flex items-start gap-2">
@@ -255,7 +255,7 @@ export default function HomePage() {
                 <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center">
                   <span className="text-secondary-foreground font-bold">M</span>
                 </div>
-                <h3 className="font-semibold text-lg">MoMo Wallet</h3>
+                <h3 className="font-semibold text-lg">Ví MoMo</h3>
               </div>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li className="flex items-start gap-2">

@@ -112,11 +112,11 @@ export function FlowDiagram({ steps, currentStep, onStepClick }: FlowDiagramProp
         <div className="flex items-center justify-center gap-6 mt-6 text-xs">
           <div className="flex items-center gap-2">
             <div className="w-3 h-3 rounded-full bg-primary" />
-            <span className="text-muted-foreground">Shopee Platform</span>
+            <span className="text-muted-foreground">Nền tảng Shopee</span>
           </div>
           <div className="flex items-center gap-2">
             <div className="w-3 h-3 rounded-full bg-secondary" />
-            <span className="text-muted-foreground">MoMo Wallet</span>
+            <span className="text-muted-foreground">Ví MoMo</span>
           </div>
         </div>
       </div>

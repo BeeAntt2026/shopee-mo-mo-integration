@@ -33,7 +33,7 @@ export function MomoPinScreen({ onNext, onPrev }: MomoPinScreenProps) {
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
           </svg>
         </button>
-        <span className="text-white font-medium text-[11px]">Xac nhan thanh toan</span>
+        <span className="text-white font-medium text-[11px]">Xác nhận thanh toán</span>
         <div className="w-4" />
       </div>
 
@@ -48,12 +48,12 @@ export function MomoPinScreen({ onNext, onPrev }: MomoPinScreenProps) {
           <div className="w-6 h-6 bg-[#EE4D2D] rounded-md flex items-center justify-center">
             <span className="text-white text-[10px] font-bold">S</span>
           </div>
-          <span className="text-white text-[10px]">Shopee Vietnam</span>
+          <span className="text-white text-[10px]">Shopee Việt Nam</span>
         </div>
 
         {/* PIN Input Display */}
         <div className="mb-2">
-          <div className="text-white/70 text-[10px] mb-2 text-center">Nhap ma PIN MoMo</div>
+          <div className="text-white/70 text-[10px] mb-2 text-center">Nhập mã PIN MoMo</div>
           <div className="flex gap-2 justify-center">
             {[...Array(6)].map((_, i) => (
               <div 
@@ -80,7 +80,7 @@ export function MomoPinScreen({ onNext, onPrev }: MomoPinScreenProps) {
               <path d="M12 1C8.14 1 5 4.14 5 8v4c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-8c0-1.1-.9-2-2-2V8c0-3.86-3.14-7-7-7zm0 2c2.76 0 5 2.24 5 5v4H7V8c0-2.76 2.24-5 5-5zm0 11c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2z"/>
             </svg>
           </div>
-          <span>Su dung van tay / Face ID</span>
+          <span>Sử dụng vân tay / Face ID</span>
         </button>
 
         {/* Numpad */}
@@ -95,7 +95,7 @@ export function MomoPinScreen({ onNext, onPrev }: MomoPinScreenProps) {
             </button>
           ))}
           <button className="w-11 h-11 rounded-full text-white/50 text-[9px] flex items-center justify-center hover:text-white transition-colors">
-            Quen PIN?
+            Quên PIN?
           </button>
           <button
             onClick={() => handlePinClick("0")}
