@@ -138,10 +138,12 @@ export function ShopeeConfirmScreen({ onPrev }: ShopeeConfirmScreenProps) {
             <span className="text-[10px] font-medium">Apple Store Official</span>
           </div>
           <div className="flex gap-3">
-            <div className="w-11 h-11 bg-gray-100 rounded-md flex items-center justify-center">
-              <svg className="w-6 h-6 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
-              </svg>
+            <div className="w-11 h-11 bg-gray-100 rounded-md overflow-hidden">
+              <img
+                src="/iphone-15-6c.webp"
+                alt="iPhone 15 Pro Max"
+                className="w-full h-full object-cover"
+              />
             </div>
             <div className="flex-1">
               <h4 className="text-[10px] text-gray-800">iPhone 15 Pro Max 256GB</h4>

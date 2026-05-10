@@ -29,10 +29,12 @@ export function ShopeeCartScreen({ onNext, onPrev }: ShopeeCartScreenProps) {
 
           <div className="flex gap-2">
             <input type="checkbox" className="w-3 h-3 accent-[#EE4D2D] mt-2" defaultChecked />
-            <div className="w-12 h-12 bg-gray-100 rounded flex items-center justify-center flex-shrink-0">
-              <svg className="w-6 h-6 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
-              </svg>
+            <div className="w-12 h-12 bg-gray-100 rounded overflow-hidden flex-shrink-0">
+              <img
+                src="/iphone-15-6c.webp"
+                alt="iPhone 15 Pro Max"
+                className="w-full h-full object-cover"
+              />
             </div>
             <div className="flex-1 min-w-0">
               <h4 className="text-[10px] font-medium text-gray-800 truncate">iPhone 15 Pro Max</h4>

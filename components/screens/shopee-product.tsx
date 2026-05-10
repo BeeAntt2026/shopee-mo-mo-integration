@@ -22,12 +22,12 @@ export function ShopeeProductScreen({ onNext }: ShopeeProductScreenProps) {
 
       {/* Product Image */}
       <div className="bg-white relative">
-        <div className="aspect-[4/3] bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
-          <div className="w-14 h-14 bg-[#EE4D2D]/10 rounded-xl flex items-center justify-center">
-            <svg className="w-8 h-8 text-[#EE4D2D]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
-            </svg>
-          </div>
+        <div className="aspect-[4/3] bg-gray-100 overflow-hidden">
+          <img
+            src="/iphone-15-6c.webp"
+            alt="iPhone 15 Pro Max"
+            className="w-full h-full object-cover"
+          />
         </div>
         <div className="absolute top-1 left-1 bg-[#EE4D2D] text-white px-1.5 py-0.5 rounded text-[8px] font-bold">
           FLASH SALE

@@ -15,7 +15,7 @@ interface FlowDiagramProps {
 
 export function FlowDiagram({ steps, currentStep, onStepClick }: FlowDiagramProps) {
   return (
-    <section className="py-12 md:py-16 px-4 bg-muted/50">
+    <section className="py-12 md:py-16 px-4 bg-muted/50 font-sans">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-xl md:text-2xl font-bold text-center mb-2">
           Sơ Đồ Luồng Thanh Toán
@@ -24,8 +24,8 @@ export function FlowDiagram({ steps, currentStep, onStepClick }: FlowDiagramProp
           Nhấn vào từng bước để xem chi tiết
         </p>
         
-        <div className="overflow-x-auto pb-4">
-          <div className="flex items-center justify-center gap-2 min-w-max px-4">
+        <div className="overflow-x-auto pb-4 pt-2">
+          <div className="flex items-center justify-center gap-2 min-w-max px-3">
             {steps.map((step, index) => {
               const isActive = step.id === currentStep
               const isPast = step.id < currentStep
@@ -36,7 +36,7 @@ export function FlowDiagram({ steps, currentStep, onStepClick }: FlowDiagramProp
                   <button
                     onClick={() => onStepClick(step.id)}
                     className={`
-                      relative flex flex-col items-center p-4 rounded-xl transition-all duration-300 min-w-[100px]
+                      flex flex-col items-center gap-1.5 p-3 rounded-xl transition-all duration-300 min-w-[92px]
                       ${isActive 
                         ? isShopee 
                           ? "bg-primary text-primary-foreground shadow-lg shadow-primary/30 scale-105" 
@@ -49,7 +49,7 @@ export function FlowDiagram({ steps, currentStep, onStepClick }: FlowDiagramProp
                   >
                     {/* Platform Badge */}
                     <div className={`
-                      absolute -top-2 left-1/2 -translate-x-1/2 px-2 py-0.5 rounded-full text-[10px] font-semibold
+                      px-2 py-0.5 rounded-full text-[9px] font-semibold
                       ${isActive
                         ? "bg-white/20 text-current"
                         : isShopee 
@@ -62,7 +62,7 @@ export function FlowDiagram({ steps, currentStep, onStepClick }: FlowDiagramProp
                     
                     {/* Step Number */}
                     <div className={`
-                      w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold mb-2
+                      w-9 h-9 rounded-full flex items-center justify-center text-[11px] font-bold
                       ${isActive 
                         ? "bg-white/20" 
                         : isPast 
@@ -80,7 +80,7 @@ export function FlowDiagram({ steps, currentStep, onStepClick }: FlowDiagramProp
                     </div>
                     
                     {/* Step Title */}
-                    <span className="text-xs font-medium text-center leading-tight">
+                    <span className="text-[10px] font-medium text-center leading-tight">
                       {step.shortTitle}
                     </span>
                   </button>
@@ -89,7 +89,7 @@ export function FlowDiagram({ steps, currentStep, onStepClick }: FlowDiagramProp
                   {index < steps.length - 1 && (
                     <div className="flex items-center mx-1">
                       <svg 
-                        className={`w-6 h-6 ${
+                        className={`w-5 h-5 ${
                           step.id < currentStep 
                             ? step.platform === "shopee" ? "text-primary" : "text-secondary"
                             : "text-border"

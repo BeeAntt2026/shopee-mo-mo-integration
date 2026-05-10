@@ -96,7 +96,7 @@ export function StepExplanation({
             Technical Note
           </span>
         </div>
-        <p className="text-[10px] text-muted-foreground font-mono leading-relaxed">
+        <p className="text-[10px] text-muted-foreground leading-relaxed">
           {stepData.technicalNote}
         </p>
       </div>
